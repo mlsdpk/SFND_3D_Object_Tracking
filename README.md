@@ -1,8 +1,11 @@
 [//]: # (Image References)
 [image_0]: img/img0.png
 [image_1]: img/img1.png
+[image_2]: img/img2.png
 
 # SFND_3D_Object_Tracking
+
+![alt text][image_0]
 
 ## Introduction
 
@@ -37,9 +40,9 @@ Compute the time-to-collision in second for all matched 3D objects using only ke
 #### Performance Evaluation 1
 Time to collision computations from Lidar points are better than the camera based TTC results and they are quite accurate. Some of the frames where outliers present can be neglected and solved by finding the median point instead of the closest point. Below are some frames with outliers.
 
-![alt text][image_0]
+![alt text][image_1]
 
 #### Performance Evaluation 2
 Best 3 detector/ descriptor combinations from mid term project shall be used to evaluate the accuracy of time to collision from both camera and lidar sensors. Below are the some TTC results. As we can see, since the detector/descriptor combinations are chosen based on the speed, TTC results from camera are not accurate enough compared to lidar results.
 
-![alt text][image_1]
+![alt text][image_2]
