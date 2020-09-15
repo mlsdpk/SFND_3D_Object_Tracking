@@ -3,7 +3,7 @@
 [image_1]: img/img1.png
 [image_2]: img/img2.png
 
-# SFND_3D_Object_Tracking
+# 3D Object Tracking Project
 
 ![alt text][image_0]
 
